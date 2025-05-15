@@ -1,0 +1,804 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "type": "Игры",
+            "name": "Baldur's Gate 3",
+            "price": "4299₽",
+            "description": "Deluxe Edition с эксклюзивными предметами",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 2,
+            "type": "Аккаунты",
+            "name": "Аккаунт Genshin Impact",
+            "price": "8999₽",
+            "description": "AR 60, все архонты, топовые артефакты",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 3,
+            "type": "Ключи",
+            "name": "Microsoft Office 365",
+            "price": "2799₽",
+            "description": "Годовая подписка для 6 пользователей",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 4,
+            "type": "Донат",
+            "name": "Донат Warface",
+            "price": "1499₽",
+            "description": "5000 кредитов + VIP на месяц",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 5,
+            "type": "Лицензии",
+            "name": "WinRAR Pro",
+            "price": "599₽",
+            "description": "Пожизненная лицензия на все устройства",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 6,
+            "type": "Бусты",
+            "name": "Буст WoW Mythic+",
+            "price": "3299₽",
+            "description": "Прохождение 10 ключей 15+ уровня",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 7,
+            "type": "Игры",
+            "name": "Starfield",
+            "price": "4999₽",
+            "description": "Premium Edition + сезонный пропуск",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 8,
+            "type": "Аккаунты",
+            "name": "Аккаунт Valorant",
+            "price": "6999₽",
+            "description": "Immortal ранг, все агенты, редкие скины",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 9,
+            "type": "Ключи",
+            "name": "Антивирус Kaspersky",
+            "price": "1899₽",
+            "description": "3 устройства, защита на 2 года",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 10,
+            "type": "Донат",
+            "name": "Донат Clash Royale",
+            "price": "999₽",
+            "description": "10000 гемов + сундук короля",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 11,
+            "type": "Лицензии",
+            "name": "1Password Premium",
+            "price": "2199₽",
+            "description": "Семейный план на 5 человек, 1 год",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 12,
+            "type": "Игры",
+            "name": "Diablo IV",
+            "price": "5499₽",
+            "description": "Ultimate Edition с косметическими предметами",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 13,
+            "type": "Ключи",
+            "name": "PlayStation Plus",
+            "price": "3799₽",
+            "description": "Premium подписка на 12 месяцев",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 14,
+            "type": "Лицензии",
+            "name": "Netflix Premium 4K",
+            "price": "1699₽",
+            "description": "4 экрана, UHD качество, 3 месяца",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 15,
+            "type": "Бусты",
+            "name": "Буст League of Legends",
+            "price": "7499₽",
+            "description": "От Gold до Diamond за 2 недели",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 16,
+            "type": "Игры",
+            "name": "Cyberpunk 2077",
+            "price": "3999₽",
+            "description": "Phantom Liberty DLC + базовая игра",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 17,
+            "type": "Аккаунты",
+            "name": "Аккаунт CS:GO",
+            "price": "12999₽",
+            "description": "Global Elite, инвентарь на 50к+",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 18,
+            "type": "Ключи",
+            "name": "Windows 11 Pro",
+            "price": "4999₽",
+            "description": "Официальная лицензия, мгновенная активация",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 19,
+            "type": "Донат",
+            "name": "Донат World of Tanks",
+            "price": "2499₽",
+            "description": "10000 золота + премиум танк",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 20,
+            "type": "Лицензии",
+            "name": "Adobe Photoshop",
+            "price": "3999₽",
+            "description": "Годовая подписка + все обновления",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 21,
+            "type": "Бусты",
+            "name": "Буст Dota 2",
+            "price": "8999₽",
+            "description": "+1500 MMR с гарантией",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 22,
+            "type": "Игры",
+            "name": "Elden Ring",
+            "price": "3499₽",
+            "description": "Game of the Year Edition",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 23,
+            "type": "Аккаунты",
+            "name": "Аккаунт Fortnite",
+            "price": "4999₽",
+            "description": "Редкие скины с 1 сезона",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 24,
+            "type": "Ключи",
+            "name": "Spotify Family",
+            "price": "899₽",
+            "description": "6 человек, 3 месяца премиума",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 25,
+            "type": "Донат",
+            "name": "Донат Minecraft",
+            "price": "799₽",
+            "description": "VIP статус на топовом сервере",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 26,
+            "type": "Лицензии",
+            "name": "ESET NOD32",
+            "price": "1499₽",
+            "description": "Антивирус на 2 года, 3 устройства",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 27,
+            "type": "Бусты",
+            "name": "Буст Overwatch 2",
+            "price": "5999₽",
+            "description": "До Grandmaster за неделю",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 28,
+            "type": "Игры",
+            "name": "Red Dead Redemption 2",
+            "price": "2999₽",
+            "description": "Ultimate Edition со всеми DLC",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 29,
+            "type": "Аккаунты",
+            "name": "Аккаунт FIFA 23",
+            "price": "15999₽",
+            "description": "Топовый состав, все легенды",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 30,
+            "type": "Ключи",
+            "name": "YouTube Premium",
+            "price": "299₽",
+            "description": "3 месяца без рекламы",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 31,
+            "type": "Донат",
+            "name": "Донат PUBG Mobile",
+            "price": "1999₽",
+            "description": "5000 UC + королевский пропуск",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 32,
+            "type": "Лицензии",
+            "name": "Avast Premium",
+            "price": "999₽",
+            "description": "Комплексная защита на год",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 33,
+            "type": "Бусты",
+            "name": "Буст Apex Legends",
+            "price": "4499₽",
+            "description": "До Apex Predator",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 34,
+            "type": "Игры",
+            "name": "God of War",
+            "price": "3999₽",
+            "description": "PC версия + все бонусы",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 35,
+            "type": "Аккаунты",
+            "name": "Аккаунт Destiny 2",
+            "price": "9999₽",
+            "description": "Все DLC, редкое оружие",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 36,
+            "type": "Ключи",
+            "name": "Discord Nitro",
+            "price": "499₽",
+            "description": "3 месяца полного доступа",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 37,
+            "type": "Донат",
+            "name": "Донат Brawl Stars",
+            "price": "799₽",
+            "description": "2000 гемов + новый боец",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 38,
+            "type": "Лицензии",
+            "name": "Norton 360",
+            "price": "2499₽",
+            "description": "Делюкс версия на 2 года",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 39,
+            "type": "Бусты",
+            "name": "Буст Rainbow Six Siege",
+            "price": "6499₽",
+            "description": "До Diamond ранга",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 40,
+            "type": "Игры",
+            "name": "Hogwarts Legacy",
+            "price": "4499₽",
+            "description": "Deluxe Edition + бонусы предзаказа",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 41,
+            "type": "Аккаунты",
+            "name": "Аккаунт Lost Ark",
+            "price": "11999₽",
+            "description": "1490+ ilvl, полный набор",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 42,
+            "type": "Ключи",
+            "name": "Xbox Game Pass",
+            "price": "2999₽",
+            "description": "Ultimate на 6 месяцев",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 43,
+            "type": "Донат",
+            "name": "Донат Free Fire",
+            "price": "599₽",
+            "description": "1000 алмазов + редкий набор",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 44,
+            "type": "Лицензии",
+            "name": "Malwarebytes",
+            "price": "1799₽",
+            "description": "Премиум защита на год",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 45,
+            "type": "Бусты",
+            "name": "Буст Hearthstone",
+            "price": "3999₽",
+            "description": "Легенда в стандарте",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 46,
+            "type": "Игры",
+            "name": "Spider-Man Remastered",
+            "price": "3799₽",
+            "description": "PC версия + все костюмы",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 47,
+            "type": "Аккаунты",
+            "name": "Аккаунт Escape from Tarkov",
+            "price": "7999₽",
+            "description": "Edge of Darkness Edition",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 48,
+            "type": "Ключи",
+            "name": "EA Play Pro",
+            "price": "3499₽",
+            "description": "Годовая подписка",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 49,
+            "type": "Донат",
+            "name": "Донат Black Desert",
+            "price": "2999₽",
+            "description": "10000 пёрлов + набор новичка",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 50,
+            "type": "Лицензии",
+            "name": "Bitdefender Total",
+            "price": "2299₽",
+            "description": "Комплексная защита на 2 года",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 51,
+            "type": "Бусты",
+            "name": "Буст Path of Exile",
+            "price": "4999₽",
+            "description": "Прокачка до 100 уровня",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 52,
+            "type": "Игры",
+            "name": "Resident Evil 4 Remake",
+            "price": "4299₽",
+            "description": "Deluxe Edition + все DLC",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 53,
+            "type": "Аккаунты",
+            "name": "Аккаунт Rust",
+            "price": "5999₽",
+            "description": "1000+ часов, редкие скины",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 54,
+            "type": "Ключи",
+            "name": "Crunchyroll Premium",
+            "price": "699₽",
+            "description": "Mega Fan на 3 месяца",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 55,
+            "type": "Донат",
+            "name": "Донат Lineage 2M",
+            "price": "3999₽",
+            "description": "50000 кристаллов + VIP",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 56,
+            "type": "Лицензии",
+            "name": "McAfee Total Protection",
+            "price": "1999₽",
+            "description": "5 устройств на 2 года",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 57,
+            "type": "Бусты",
+            "name": "Буст Rocket League",
+            "price": "3499₽",
+            "description": "До Grand Champion",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 58,
+            "type": "Игры",
+            "name": "Final Fantasy XVI",
+            "price": "5499₽",
+            "description": "Deluxe Edition + саундтрек",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 59,
+            "type": "Аккаунты",
+            "name": "Аккаунт Dead by Daylight",
+            "price": "4999₽",
+            "description": "Все персонажи и скины",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 60,
+            "type": "Ключи",
+            "name": "Apple Music",
+            "price": "899₽",
+            "description": "Семейная подписка на 6 месяцев",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 61,
+            "type": "Донат",
+            "name": "Донат Mobile Legends",
+            "price": "1499₽",
+            "description": "3000 алмазов + эпик скин",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 62,
+            "type": "Лицензии",
+            "name": "Acronis True Image",
+            "price": "2799₽",
+            "description": "Advanced Protection на год",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 63,
+            "type": "Бусты",
+            "name": "Буст Teamfight Tactics",
+            "price": "5999₽",
+            "description": "До Challenger за неделю",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 64,
+            "type": "Игры",
+            "name": "Street Fighter 6",
+            "price": "3999₽",
+            "description": "Ultimate Edition + все бойцы",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 65,
+            "type": "Аккаунты",
+            "name": "Аккаунт Apex Legends",
+            "price": "8999₽",
+            "description": "Все легенды, хейрлум",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 66,
+            "type": "Ключи",
+            "name": "Tidal HiFi Plus",
+            "price": "999₽",
+            "description": "6 месяцев премиум звука",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 67,
+            "type": "Донат",
+            "name": "Донат Raid Shadow Legends",
+            "price": "2499₽",
+            "description": "Набор легендарного героя",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 68,
+            "type": "Лицензии",
+            "name": "CCleaner Professional",
+            "price": "999₽",
+            "description": "Пожизненная лицензия",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 69,
+            "type": "Бусты",
+            "name": "Буст Valorant",
+            "price": "7999₽",
+            "description": "От Iron до Immortal",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 70,
+            "type": "Игры",
+            "name": "Mortal Kombat 1",
+            "price": "4499₽",
+            "description": "Premium Edition + все DLC",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 71,
+            "type": "Аккаунты",
+            "name": "Аккаунт War Thunder",
+            "price": "13999₽",
+            "description": "Топовая техника всех наций",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 72,
+            "type": "Ключи",
+            "name": "Paramount+",
+            "price": "799₽",
+            "description": "Premium на год",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 73,
+            "type": "Донат",
+            "name": "Донат Genshin Impact",
+            "price": "4999₽",
+            "description": "6480 примогемов + Благословение",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 74,
+            "type": "Лицензии",
+            "name": "AOMEI Backupper Pro",
+            "price": "1499₽",
+            "description": "Пожизненная лицензия",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 75,
+            "type": "Бусты",
+            "name": "Буст Warzone",
+            "price": "5999₽",
+            "description": "100 побед + высокий KD",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 76,
+            "type": "Игры",
+            "name": "Lies of P",
+            "price": "3999₽",
+            "description": "Deluxe Edition + бонусы",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 77,
+            "type": "Аккаунты",
+            "name": "Аккаунт Rainbow Six",
+            "price": "7999₽",
+            "description": "Все операторы, элитные скины",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 78,
+            "type": "Ключи",
+            "name": "Disney+",
+            "price": "999₽",
+            "description": "Premium на 6 месяцев",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 79,
+            "type": "Донат",
+            "name": "Донат Honkai Star Rail",
+            "price": "3999₽",
+            "description": "6000 нефрита + VIP",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 80,
+            "type": "Лицензии",
+            "name": "IObit Advanced SystemCare",
+            "price": "1299₽",
+            "description": "Pro версия на год",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 81,
+            "type": "Бусты",
+            "name": "Буст Fall Guys",
+            "price": "2999₽",
+            "description": "100 побед за сезон",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 82,
+            "type": "Игры",
+            "name": "Armored Core VI",
+            "price": "4299₽",
+            "description": "Launch Edition + артбук",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 83,
+            "type": "Аккаунты",
+            "name": "Аккаунт PUBG",
+            "price": "5999₽",
+            "description": "Редкие скины, высокий ранг",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 84,
+            "type": "Ключи",
+            "name": "Max Premium",
+            "price": "699₽",
+            "description": "3 месяца без рекламы",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 85,
+            "type": "Донат",
+            "name": "Донат Tower of Fantasy",
+            "price": "2999₽",
+            "description": "10000 кристаллов + редкое оружие",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 86,
+            "type": "Лицензии",
+            "name": "Wise Care 365 Pro",
+            "price": "999₽",
+            "description": "Lifetime лицензия",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 87,
+            "type": "Бусты",
+            "name": "Буст Hunt Showdown",
+            "price": "4999₽",
+            "description": "Престиж 100 за месяц",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 88,
+            "type": "Игры",
+            "name": "Lords of the Fallen",
+            "price": "3999₽",
+            "description": "Deluxe Edition 2023",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 89,
+            "type": "Аккаунты",
+            "name": "Аккаунт Sea of Thieves",
+            "price": "6999₽",
+            "description": "Легендарный пират, все корабли",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 90,
+            "type": "Ключи",
+            "name": "Twitch Turbo",
+            "price": "599₽",
+            "description": "3 месяца без рекламы",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 91,
+            "type": "Донат",
+            "name": "Донат EVE Online",
+            "price": "1999₽",
+            "description": "3 месяца Omega + PLEX",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 92,
+            "type": "Лицензии",
+            "name": "Driver Booster Pro",
+            "price": "899₽",
+            "description": "Год обновлений",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 93,
+            "type": "Бусты",
+            "name": "Буст Diablo IV",
+            "price": "8999₽",
+            "description": "Прокачка до 100 уровня",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 94,
+            "type": "Игры",
+            "name": "Starfield",
+            "price": "4999₽",
+            "description": "Constellation Edition",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 95,
+            "type": "Аккаунты",
+            "name": "Аккаунт DayZ",
+            "price": "4999₽",
+            "description": "Топовый лут, все карты",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 96,
+            "type": "Ключи",
+            "name": "Deezer Premium",
+            "price": "499₽",
+            "description": "6 месяцев музыки",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 97,
+            "type": "Донат",
+            "name": "Донат Lost Ark",
+            "price": "3999₽",
+            "description": "100000 кристаллов + набор",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 98,
+            "type": "Лицензии",
+            "name": "Revo Uninstaller Pro",
+            "price": "799₽",
+            "description": "Пожизненная лицензия",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 99,
+            "type": "Бусты",
+            "name": "Буст Destiny 2",
+            "price": "6999₽",
+            "description": "Рейды + топовое оружие",
+            "image": "/image/Steam.png"
+        },
+        {
+            "id": 100,
+            "type": "Игры",
+            "name": "Alan Wake 2",
+            "price": "4499₽",
+            "description": "Deluxe Edition + бонусы",
+            "image": "/image/Steam.png"
+        }
+    ]
+} 
