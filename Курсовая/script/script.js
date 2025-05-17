@@ -119,7 +119,7 @@ function createProductCard(product) {
 // Функция для загрузки и отображения товаров
 async function loadProducts() {
     try {
-        const response = await fetch('/data/products.json');
+        const response = await fetch('/Курсовая/data/products.json');
         const data = await response.json();
         return data.products;
     } catch (error) {
@@ -207,9 +207,11 @@ function displayProductsInContainer(products, containerSelector, append = false)
     });
 }
 
-// Функция для добавления новых случайных товаров
-function addMoreProducts(products, containerSelector, count, isSearch = false) {
-    const newProducts = getRandomProducts(products, count, isSearch);
+// Функция для добавления новых случайных товаров с учетом категории
+function addMoreProducts(products, containerSelector, count, isSearch = false, category = 'Все') {
+    // Фильтруем товары по категории
+    const filteredProducts = filterProducts(products, '', category);
+    const newProducts = getRandomProducts(filteredProducts, count, isSearch);
     if (newProducts.length > 0) {
         displayProductsInContainer(newProducts, containerSelector, true);
         return true;
@@ -349,9 +351,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Применяем debounce к функции поиска
         const debouncedSearch = debounce(handleSearch, 100);
 
-        // Добавляем обработчик для кнопки "Показать больше" на странице поиска
+        // Обработчик для кнопки "Показать больше" на странице поиска
         searchUpdateButton.addEventListener('click', () => {
-            addMoreProducts(allProducts, '.products-grid', 12, true);
+            const activeCategory = document.querySelector('.category-link.active');
+            const category = activeCategory ? activeCategory.textContent : 'Все';
+            addMoreProducts(allProducts, '.products-grid', 12, true, category);
         });
 
         // Добавляем обработчик ввода для поля поиска

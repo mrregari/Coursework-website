@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 
-
 @import url("fonts.css");
-
 
 * {
     margin: 0;
@@ -11,8 +9,8 @@
     box-sizing: border-box;
     font-family: Inter;
     color: #FFFFFF;
-
 }
+
 body{
     width: 100%;
     height: auto;
@@ -45,10 +43,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-
 }
-
-
 
 .logo{
     float: left;
@@ -87,15 +82,7 @@ body{
     cursor: pointer;
 }
 
-
-
-
-
-
 .login-btn span{
-
-
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -104,11 +91,7 @@ body{
     text-align: center;
 
     color: #000000;
-
 }
-
-
-
 
 .navigation{
     display: flex;
@@ -118,11 +101,8 @@ body{
     gap: 80px;
     width: 669px;
     height: 61px;
- 
+    justify-content: space-evenly;
 }
-
-
-
 
 .nav-link{
     display: flex;
@@ -139,16 +119,14 @@ body{
 
 .content{
     z-index: 10;
-    background: url("/image/Circules.png");
+    background: url("/Курсовая/image/Circules.png");
     background-size: cover;
 }
-
 
 .hero{
     margin-top: 90px;
     width: 1128px;
     height: 256px;
-
 }
 
 .Vector{
@@ -157,12 +135,10 @@ body{
     z-index: -1;
 }
 
-
 .hero h1{
     margin-left: 24px;
     width: 806.72px;
     height: 47px;
-
 
     font-family: 'Inter';
     font-style: normal;
@@ -171,18 +147,11 @@ body{
     line-height: 47px;
 }
 
-
-
-
-
-
-
 .hero p{
     margin-top: 30px;
     margin-left: 94px;
     width: 362.32px;
     height: 56px;
-
 
     font-family: 'Inter';
     font-style: italic;
@@ -190,13 +159,6 @@ body{
     font-size: 24px;
     line-height: 28px;
 }
-
-
-
-
-
-
-
 
 .cta-btn{
     cursor: pointer;
@@ -224,10 +186,6 @@ body{
     color:#000000
 }
 
-
-
-
-
 .about{
     margin-top: 410px;
     height: 650px;
@@ -238,10 +196,7 @@ body{
     align-items: center;
 }
 
-
-
 .about-content h2{
-
     width: 241px;
     height: 56px;
     margin-bottom: 14px;
@@ -254,32 +209,23 @@ body{
     color: #FFFFFF;
 }
 
-
-
-
-
 .about-content p{
+    width: 350px;
+    height: 252px;
 
-width: 350px;
-height: 252px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
 
-
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 28px;
-
-color: #FFFFFF;
+    color: #FFFFFF;
 }
-
-
 
 .Enigma-img{
-width: 1038.98px;
-height: 606px;
+    width: 1038.98px;
+    height: 606px;
 }
-
 
 .Vectors-Enigma{
     justify-self: center;
@@ -288,9 +234,6 @@ height: 606px;
     right: 100px;
     z-index: -1;
 }
-
-
-
 
 .popular-products{
     margin-top: 410px;
@@ -313,9 +256,6 @@ height: 606px;
     row-gap: 27px;
 }
 
-
-
-
 .product-card{
     width: 250px;
     height: 320px;
@@ -324,7 +264,6 @@ height: 606px;
     border: 1px solid #000000;
     box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
 }
-
 
 .product-image{
     margin: 12px 12px 0 12px;
@@ -403,7 +342,6 @@ height: 606px;
 
 }
 
-
 .earn-with-us-wrap{
     margin-top: 410px;
 }
@@ -413,8 +351,6 @@ height: 606px;
     font-weight: 800;
     margin-bottom: 30px;
 }
-
-
 
 .cards{
     display: flex;
@@ -626,12 +562,12 @@ height: 40px;
 }
 
 .footer-wrap{
+
     z-index: 2;
     width: 100%;
     height: 570px;
     margin-top: 200px ;
-    background: rgba(0, 1, 15, 0.58);
-
+    background: rgba(0, 1, 15, 0.20);
 }
 
 .footer-logo img {
@@ -656,7 +592,6 @@ height: 40px;
 }
 
 .social-icons a{
-
     text-decoration: none;
 }
 .footer-navigation{
@@ -688,6 +623,7 @@ height: 40px;
 }
 
 .footer{
+
     display: grid;
     justify-self: center ;
     width: 75%;
@@ -842,10 +778,6 @@ height: 40px;
     .info-cards{
         width: 75%;
     }  
-    
-
-
-
 }
 
 @media (max-width: 900px) {
@@ -1021,7 +953,6 @@ height: 40px;
     }
 
     .cta-btn {
-
         margin: 20px 15px;
     }
 
@@ -1116,7 +1047,6 @@ height: 40px;
 }
 
 @media (max-width: 555px) {
-
     .popular-products{
         flex-direction: column;
     }
@@ -1168,10 +1098,8 @@ height: 40px;
         text-align: center;
     }
     
-
     .search-footer input::placeholder{
         font-size: 16px;
-
     }
 
     .login {
@@ -1286,7 +1214,6 @@ height: 40px;
     * {
         scrollbar-width: none;
     }
-
 }
 
 @media (max-width: 319px) {
@@ -1545,14 +1472,15 @@ body {
     * {
         scrollbar-width: none;
     }
-
 }
 
 /* Стили для модального окна карточки товара */
 .product-modal {
     position: relative;
     width: 800px;
-    background: rgba(49, 34, 85, 0.95);
+    background: linear-gradient(180deg, #260F38 25%, #361111 100%) center;
+    background-size: cover;
+    background-attachment: fixed;
     backdrop-filter: blur(5px);
     border-radius: 30px;
     padding: 30px;
