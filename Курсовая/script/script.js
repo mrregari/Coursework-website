@@ -27,43 +27,43 @@ function closeRegisterModal() {
 }
 
 // Функция для сохранения нового пользователя
-async function registerUser(userData) {
-    try {
-        const response = await fetch('/data/users.json');
-        const data = await response.json();
+// async function registerUser(userData) {
+//     try {
+//         const response = await fetch('/data/users.json');
+//         const data = await response.json();
         
-        // Проверка существования пользователя
-        const userExists = data.users.some(user => 
-            user.login === userData.login || user.email === userData.email
-        );
+//         // Проверка существования пользователя
+//         const userExists = data.users.some(user => 
+//             user.login === userData.login || user.email === userData.email
+//         );
         
-        if (userExists) {
-            throw new Error('Пользователь с таким логином или email уже существует');
-        }
+//         if (userExists) {
+//             throw new Error('Пользователь с таким логином или email уже существует');
+//         }
 
-        // Создание нового пользователя
-        const newUser = {
-            id: data.users.length + 1,
-            login: userData.login,
-            password: userData.password, // В реальном проекте пароль должен быть захеширован
-            email: userData.email,
-            created_at: new Date().toISOString().split('T')[0]
-        };
+//         // Создание нового пользователя
+//         const newUser = {
+//             id: data.users.length + 1,
+//             login: userData.login,
+//             password: userData.password, // В реальном проекте пароль должен быть захеширован
+//             email: userData.email,
+//             created_at: new Date().toISOString().split('T')[0]
+//         };
 
-        data.users.push(newUser);
+//         data.users.push(newUser);
 
-        // В реальном проекте здесь был бы запрос к API для сохранения пользователя
-        // Для демонстрации просто показываем успешное сообщение
-        alert('Регистрация успешна! Теперь вы можете войти в систему.');
-        closeRegisterModal();
-        openAuthModal();
+//         // В реальном проекте здесь был бы запрос к API для сохранения пользователя
+//         // Для демонстрации просто показываем успешное сообщение
+//         alert('Регистрация успешна! Теперь вы можете войти в систему.');
+//         closeRegisterModal();
+//         openAuthModal();
         
-        return true;
-    } catch (error) {
-        alert(error.message);
-        return false;
-    }
-}
+//         return true;
+//     } catch (error) {
+//         alert(error.message);
+//         return false;
+//     }
+// }
 
 // Функции для работы с модальным окном карточки товара
 function openProductModal(card) {
