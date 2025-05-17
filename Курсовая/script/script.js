@@ -378,7 +378,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const findServiceBtn = document.querySelector('.cta-btn');
     if (findServiceBtn) {
         findServiceBtn.addEventListener('click', () => {
-            window.location.href = '/buy.html';
+            window.location.href = '/Курсовая/buy.html';
         });
     }
 
